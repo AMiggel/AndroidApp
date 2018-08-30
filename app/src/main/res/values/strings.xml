@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SuSalud</string>
+    <string name="titulo">Iniciar Sesión</string>
+    <string name="subtitulo">Ingrese sus datos</string>
+    <string name="user">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="boton">Ingresar</string>
+</resources>
