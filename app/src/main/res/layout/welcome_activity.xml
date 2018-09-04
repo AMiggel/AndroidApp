@@ -26,7 +26,6 @@
                 style="@style/subtituloStyle"
                 android:textColor="@color/colorAzulRey"
                 android:text="Nombre de usuario" />
-
             </LinearLayout>
 
         </android.support.v7.widget.CardView>

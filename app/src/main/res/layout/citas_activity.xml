@@ -54,6 +54,7 @@
 
 
                 <TextView
+                    android:id="@+id/tipoCita"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/tipo"
@@ -61,18 +62,21 @@
                     android:textStyle="bold" />
 
                 <TextView
+                    android:id="@+id/fechaCita"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/fecha"
                     android:textSize="13dp" />
 
                 <TextView
+                    android:id="@+id/horaCita"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/hora"
                     android:textSize="13dp" />
 
                 <TextView
+                    android:id="@+id/nombreMedico"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="@string/medico"
