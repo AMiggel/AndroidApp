@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tituloCitas">Mis citas</string>
+    <string name="botonSolicitar">Solicitar nueva cita</string>
+    <string name="tipo">CONSULTA MÉDICA GENERAL</string>
+    <string name="fecha">05 de noviembre, 2018</string>
+    <string name="hora">10:00 am</string>
+    <string name="medico">Hipocrates</string>
+</resources>

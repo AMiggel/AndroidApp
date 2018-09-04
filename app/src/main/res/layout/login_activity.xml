@@ -59,13 +59,13 @@
             android:id="@+id/user"
             style="@style/formStyle"
             android:inputType="text"
-            android:text="@string/user" />
+            android:hint="@string/user"/>
 
         <EditText
             android:id="@+id/pass"
             style="@style/formStyle"
             android:inputType="numberPassword"
-            android:text="@string/contraseña" />
+            android:hint="@string/contraseña" />
 
         <Button
             android:id="@+id/IniciarSesion"

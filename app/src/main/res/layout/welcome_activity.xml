@@ -45,11 +45,11 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/enlace1"
+                    android:text="@string/enlace2"
                     android:layout_marginLeft="15dp"/>
 
                 <Button
-                    android:id="@+id/verCita"
+                    android:id="@+id/solicitarCita"
                     android:layout_marginTop="25dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -66,11 +66,11 @@
 
                 <TextView
                     style="@style/cajaTextoVertical"
-                    android:text="@string/enlace2"
+                    android:text="@string/enlace1"
                     android:layout_marginLeft="5dp"
                     />
                 <Button
-                    android:id="@+id/solicitarCita"
+                    android:id="@+id/verCita"
                     android:layout_marginTop="25dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -97,7 +97,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:srcCompat="@drawable/photoWelcome" />
+            app:srcCompat="@drawable/photo_welcome" />
 
 
     </LinearLayout>
