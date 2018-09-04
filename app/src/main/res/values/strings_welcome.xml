@@ -1,8 +1,7 @@
 <resources>
-    <string name="app_name">Su Salud</string>
-    <string name="titulo">Iniciar Sesión</string>
-    <string name="subtitulo">Ingrese sus datos</string>
-    <string name="user">Usuario</string>
-    <string name="contraseña">Contraseña</string>
-    <string name="boton">Ingresar</string>
+    <string name="enlace1">Ver todas mis citas</string>
+    <string name="enlace2">Solicitar nueva cita</string>
+    <string name="boton1">Ver</string>
+    <string name="boton2">Solicitar</string>
+    <string name="frase">Tu felicidad es un reflejo de tu salud</string>
 </resources>

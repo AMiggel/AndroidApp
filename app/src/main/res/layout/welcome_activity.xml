@@ -1,6 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/ajustarAlto"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            style="@style/ajustarAlto">
+
+            <LinearLayout
+               style="@style/ajustarAlto"
+                android:orientation="vertical">
+            <TextView
+                style="@style/tituloStyle"
+                android:textColor="@color/colorAzulRey"
+                android:text="Bienvenido" />
+
+            <TextView
+                android:id="@+id/nombrePersona"
+                style="@style/subtituloStyle"
+                android:textColor="@color/colorAzulRey"
+                android:text="Nombre de usuario" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="150dp"
+                android:layout_marginLeft="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/enlace1"
+                    android:layout_marginLeft="15dp"/>
+
+                <Button
+                    android:id="@+id/verCita"
+                    android:layout_marginTop="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boton2"
+                    android:background="@drawable/borders"
+
+                    style="@style/enlacesWelcome"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+               style="@style/cajaTextoVertical"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    style="@style/cajaTextoVertical"
+                    android:text="@string/enlace2"
+                    android:layout_marginLeft="5dp"
+                    />
+                <Button
+                    android:id="@+id/solicitarCita"
+                    android:layout_marginTop="25dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boton1"
+                    android:background="@drawable/borders"
+
+                    style="@style/enlacesWelcome"/>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlanco"
+            android:textStyle="bold"
+            android:background="@color/colorAzulCielo"
+            android:text="@string/frase"/>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/photoWelcome" />
+
+
+    </LinearLayout>
 
 </RelativeLayout>
