@@ -70,11 +70,11 @@
         android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/solicitarCitaform"
+        android:id="@+id/enviarCita"
         android:layout_marginTop="40dp"
         style="@style/botonStyle"
         android:background="@drawable/borders"
-        android:text="@string/solicatarBoton" />
+        android:text="@string/solicitarBoton" />
 
 
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tituloInfoCita">¡Cita solicitada satisfactoriamente!</string>
+    <string name="infoCita">Información de la cita</string>
+    <string name="lugarCita">lugar</string>
+    <string name="fechaCita">Fecha de la cita</string>
+    <string name="horaCita">Hora de la cita</string>
+    <string name="medicoCita">Médico que te antenderá</string>
+    <string name="botonCancelar">Cancelar la cita</string>
+
+</resources>

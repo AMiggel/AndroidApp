@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            style="@style/ajustarAlto"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                style="@style/ajustarAlto"
+                android:background="@color/colorAzulCielo"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/tituloStyle"
+                    android:text="@string/tituloInfoCita"
+                    android:textColor="@color/colorBlanco"/>
+
+                <TextView
+                    style="@style/subtituloStyle"
+                    android:text="@string/infoCita"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorBlanco" />
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="@string/lugarCita" />
+        <TextView
+            android:id="@+id/ubicacionCita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Coomeva Eps
+Cra.70 #26a10, Medellín - Antioquia" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="@string/fechaCita" />
+
+        <TextView
+            android:id="@+id/getFechaCita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="MM/DD/YYYY" />
+
+        <TextView
+            android:id="@+id/getHoraCita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="HH:MM" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="@string/medicoCita" />
+
+        <TextView
+            android:id="@+id/getMedicoCita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:text="Antonio Marín" />
+
+        <Button
+            android:id="@+id/cancelarCita"
+            android:layout_marginTop="40dp"
+            style="@style/botonStyle"
+            android:background="@drawable/borders"
+            android:text="@string/botonCancelar" />
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
