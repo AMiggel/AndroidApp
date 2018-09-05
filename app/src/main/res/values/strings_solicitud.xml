@@ -2,7 +2,7 @@
 <resources>
     <string name="tituloSolicitud">Solicitar cita</string>
     <string name="nota">Nota importante: </string>
-    <string name="lugar">La solicitud de citas solo está disponible para la ciudad de Medellín</string>
+    <string name="notaSolicitud">La solicitud de citas solo está disponible para la ciudad de Medellín</string>
     <string name="fechaSolicitud">Seleccionar Fecha</string>
     <string name="tipoCita">Tipo de cita</string>
     <string name="medicoDisponible">Médicos disponibles</string>

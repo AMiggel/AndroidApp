@@ -10,7 +10,8 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:orientation="vertical">
+
     <android.support.v7.widget.CardView
         style="@style/ajustarAlto"
         android:layout_marginTop="20dp">
@@ -21,20 +22,63 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/title"
                 style="@style/tituloStyle"
-                android:text="@string/titulo"
+                android:text="@string/tituloSolicitud"
                 android:textColor="@color/colorBlanco"/>
 
             <TextView
-                android:id="@+id/subtitle"
-                style="@style/subtituloStyle"
-                android:text="@string/subtitulo"
-                android:textColor="@color/colorBlanco" />
+            style="@style/subtituloStyle"
+            android:text="@string/nota"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/colorBlanco" />
 
+            <TextView
+                style="@style/subtituloStyle"
+                android:text="@string/notaSolicitud"
+                android:textColor="@color/colorBlanco" />
         </LinearLayout>
     </android.support.v7.widget.CardView>
-    
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/fechaSolicitud" />
+
+    <EditText
+        android:id="@+id/fechaCita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        style="@style/margin"
+        android:inputType="date" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/tipoCita" />
+
+    <Spinner
+        android:id="@+id/spinnerTipoCita"
+        android:layout_width="match_parent"
+        style="@style/margin"
+        android:padding="15dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/IniciarSesion"
+        android:layout_marginTop="40dp"
+        style="@style/botonStyle"
+        android:background="@drawable/borders"
+        android:text="@string/boton" />
+
+
+
+
 </LinearLayout>
 
 </RelativeLayout>
