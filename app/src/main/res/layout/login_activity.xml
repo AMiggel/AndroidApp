@@ -71,6 +71,7 @@
             android:id="@+id/IniciarSesion"
             style="@style/botonStyle"
             android:background="@drawable/borders"
+            android:onClick="ingresar"
             android:text="@string/boton" />
 
     </LinearLayout>
