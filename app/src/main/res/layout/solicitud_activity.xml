@@ -70,12 +70,11 @@
         android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/IniciarSesion"
+        android:id="@+id/solicitarCitaform"
         android:layout_marginTop="40dp"
         style="@style/botonStyle"
         android:background="@drawable/borders"
-        android:text="@string/boton" />
-
+        android:text="@string/solicatarBoton" />
 
 
 
