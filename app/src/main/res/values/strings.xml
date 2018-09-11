@@ -1,0 +1,46 @@
+<resources>
+    <!--- Strings Login -->
+    <string name="app_name">Su Salud</string>
+    <string name="titulo">Iniciar Sesión</string>
+    <string name="subtitulo">Ingrese sus datos</string>
+    <string name="user">Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="boton">Ingresar</string>
+
+    <!--- Strings Citas -->
+    <string name="tituloCitas">Mis citas</string>
+    <string name="botonSolicitar">Solicitar nueva cita</string>
+    <string name="tipo">CONSULTA MÉDICA GENERAL</string>
+    <string name="fecha">05 de noviembre, 2018</string>
+    <string name="hora">10:00 am</string>
+    <string name="medico">Hipócrates</string>
+
+    <!--- Strings Información de citas -->
+    <string name="tituloInfoCita">¡Cita solicitada satisfactoriamente!</string>
+    <string name="infoCita">Información de la cita</string>
+    <string name="lugarCita">lugar</string>
+    <string name="fechaCita">Fecha de la cita</string>
+    <string name="horaCita">Hora de la cita</string>
+    <string name="medicoCita">Médico que te antenderá</string>
+    <string name="botonCancelar">Cancelar la cita</string>
+
+    <!--- Strings solicitud de citas-->
+    <string name="tituloSolicitud">Solicitar cita</string>
+    <string name="nota">Nota importante: </string>
+    <string name="notaSolicitud">La solicitud de citas solo está disponible para la ciudad de Medellín</string>
+    <string name="fechaSolicitud">Seleccionar Fecha</string>
+    <string name="tipoCita">Tipo de cita</string>
+    <string name="solicitarBoton">Enviar información</string>
+
+    <!--- Strings pantalla de Bienvenida-->
+    <string name="enlace1">Ver todas mis citas</string>
+    <string name="enlace2">Solicitar nueva cita</string>
+    <string name="boton1">Ver</string>
+    <string name="boton2">Solicitar</string>
+    <string name="frase">Tu felicidad es un reflejo de tu salud</string>
+
+    <!--- Strings Mensajes-->
+    <string name="error_generico">Se presento un error</string>
+    <string name="mensaje_generico_guardar">Se guardo</string>
+
+</resources>

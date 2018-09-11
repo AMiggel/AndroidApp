@@ -1,9 +1,11 @@
-package co.com.unac.susalud;
+package co.com.unac.susalud.vista;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+
+import co.com.unac.susalud.R;
 
 public class LoginActivity extends AppCompatActivity {
 
